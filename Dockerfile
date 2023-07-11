@@ -1,8 +1,4 @@
 # Build stage    
-
-FROM ramonvc/freegpt-webui
-# nothing to do.
-
 FROM python:3.10-slim-buster AS build    
     
 WORKDIR /app    
